@@ -40,9 +40,9 @@ const filePath = process.argv[3];
 if (!url || !filePath) {
   console.log("Please enter in this order: node fileName.js url filePath");
   process.exit(1);
-
-  // This indicates an error or failure condition. A non-zero status code, such as 1, is often used to indicate that the process exited due to an error.
 }
+  // This indicates an error or failure condition. A non-zero status code, such as 1, is often used to indicate that the process exited due to an error.
+
 
 // Make the HTTP request
 //request.get(url, callback): This method is used to send an HTTP GET request to the specified url. It retrieves the content of the resource at the given URL. The callback function is executed when the request is completed, and it receives three parameters: error, response, and body
